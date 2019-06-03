@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Json From Revit</Text>
+    <Description>Some description for Json From Revit</Description>
+    <Assembly>Json From Revit.dll</Assembly>
+    <FullClassName>Json_From_Revit.Command</FullClassName>
+    <ClientId>858ddddb-dcd6-428c-866a-a0831e9eb2b3</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Json From Revit</Name>
+    <Assembly>Json From Revit.dll</Assembly>
+    <FullClassName>Json_From_Revit.App</FullClassName>
+    <ClientId>9c7af7c7-1086-417e-a161-203f6d750ed4</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
